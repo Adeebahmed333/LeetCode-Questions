@@ -1,5 +1,5 @@
-//TimeComplexity: O(log(n)) AuxillarySpace:O(1)
-int findMin(vector<int>& nums) {
+ //time complexity O(log(n))
+ int findMin(vector<int>& nums) {
         int n=nums.size();
 
         int s=0,e=n-1,ans=nums[0];//Initialising ans as nums[0] so it will handle the case if array is not rotated
